@@ -1,0 +1,15 @@
+{
+  "name": "trim-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p . && api-extractor run --local",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@microsoft/api-extractor": "^7.1.0"
+  }
+}
